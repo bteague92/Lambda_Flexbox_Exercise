@@ -41,7 +41,7 @@ header nav a:hover {
 
 .cta {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .cta-text {
@@ -49,10 +49,11 @@ header nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 45%;
 }
 
 .cta-text h1 {
+  font-size: 70px;
+  text-align: center;
 }
 
 .cta .cta-text button {
@@ -60,6 +61,12 @@ header nav a:hover {
   font-size: 17px;
   border: 1px solid black;
   cursor: pointer;
+  width: 170px;
+  height: 50px;
+}
+
+.middle-img {
+  width: 100%;
 }
 
 .cta .cta-text button:hover {
@@ -75,21 +82,22 @@ header nav a:hover {
   justify-content: center;
 }
 
-.text-content {
+.top-content .text-content {
   width: 45%;
   display: flex;
   flex-direction: column;
 }
 
 .main-content img {
-  width: 90%;
-  display: flex;
-  justify-content: center;
+}
+
+.bottom-content .text-content {
+  width: 30%;
 }
 
 .bottom-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   width: 90%;
 }
 
